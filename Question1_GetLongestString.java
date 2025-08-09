@@ -16,6 +16,8 @@ public class Question1_GetLongestString {
         return longest;
     }
 
+    
+
     private static boolean isValid(String s, Set<Character> validSet) {
         for (int i = 0; i < s.length(); i++) {
             char c = s.charAt(i);
@@ -32,6 +34,8 @@ public class Question1_GetLongestString {
         }
         return true;
     }
+
+    
 
     // Main
     public static void main(String[] args) {
